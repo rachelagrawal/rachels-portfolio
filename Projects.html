@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Rachel's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fef1f5;
+    color: #333;
+}
+
+header {
+    background-color: #ff80bf;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #ff66b2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    color: white;
+    padding: 30px;
+}
+
+.hero h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.projects {
+    padding: 40px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.projects h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #ff66b2;
+    margin-bottom: 30px;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #fff3f9;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    color: #ff66b2;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #ff66b2;
+    font-weight: 500;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Skills.html">Skills</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>My Projects</h1>
+            <p>Check out some of the work I've done!</p>
+        </div>
+    </header>
+
+    <section class="projects">
+        <h2>My Recent Work</h2>
+        <div class="project-cards">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Braille Board Game</h3>
+                    <p>Made a board game for visually impaired kids</p>
+                    <a href="www.google.com" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Pet friendly cookies</h3>
+                    <p>Nutritious biscuits for pet.</p>
+                    <a href="www.google.com" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Whey Isolate Flavors</h3>
+                    <p>Tastier, Healthier alternatives to traditional whey protein shake.</p>
+                    <a href="www.google.com" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>AI Song Identifier</h3>
+                    <p>Recognises music by beats, Shazam but better.</p>
+                    <a href="www.google.com" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rachel. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

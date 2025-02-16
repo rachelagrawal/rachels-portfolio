@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Rachel's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+   
+
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fef1f5;
+    color: #333;
+}
+
+header {
+    background-color: #ff80bf;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #ff66b2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    color: white;
+    padding: 30px;
+}
+
+.hero h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.skills {
+    padding: 40px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.skills h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #ff66b2;
+    margin-bottom: 30px;
+}
+
+.skill-category {
+    margin-bottom: 40px;
+}
+
+.skill-category h3 {
+    font-size: 28px;
+    color: #ff66b2;
+    margin-bottom: 15px;
+    font-family: 'Pacifico', cursive;
+}
+
+.skill-bar {
+    background-color: #f1c0c6;
+    border-radius: 4px;
+    margin: 10px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: left;
+}
+
+.skill-bar span {
+    font-size: 16px;
+    color: #ff66b2;
+    font-weight: 500;
+}
+
+.bar {
+    height: 10px;
+    background-color: #ff66b2;
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+footer {
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Skills.html">Skills</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>My Skills</h1>
+            <p>These are the skills I've developed over time!</p>
+        </div>
+    </header>
+
+    <section class="skills">
+        <h2></h2>
+        
+        <div class="skill-category">
+            <h3>Psychology skills</h3>
+            <div class="skill-bar">
+                <span>Cognitive Psychology</span>
+                <div class="bar" style="width: 90%"></div>
+            </div>
+            <div class="skill-bar">
+                <span>Counseling Psychology</span>
+                <div class="bar" style="width: 85%"></div>
+            </div>
+            <div class="skill-bar">
+                <span>Clinical Psychology</span>
+                <div class="bar" style="width: 80%"></div>
+            </div>
+            <div class="skill-bar">
+                <span>Developmental Psychology</span>
+                <div class="bar" style="width: 75%"></div>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Gym skills</h3>
+            <div class="skill-bar">
+                <span>Strength Training</span>
+                <div class="bar" style="width: 70%"></div>
+            </div>
+            <div class="skill-bar">
+                <span>Pilates</span>
+                <div class="bar" style="width: 70%"></div>
+            </div>
+            <div class="skill-bar">
+                <span>Resistance training</span>
+                <div class="bar" style="width: 60%"></div>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Technical skills</h3>
+            <div class="skill-bar">
+                <span>HTML and CSS</span>
+                <div class="bar" style="width: 90%"></div>
+            </div>
+            <div class="skill-bar">
+                <span>Python</span>
+                <div class="bar" style="width: 65%"></div>
+            </div>
+            <div class="skill-bar">
+                <span>C++</span>
+                <div class="bar" style="width: 80%"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rachel. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
